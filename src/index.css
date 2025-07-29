@@ -1,0 +1,42 @@
+/* 全局样式重置 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+/* 基础布局样式 */
+body {
+  background-color: #f5f7fa;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* 容器样式 */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* 加载动画 */
+.loading-indicator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+/* 错误提示样式 */
+.error-message {
+  color: #d32f2f;
+  background-color: #ffebee;
+  padding: 10px 15px;
+  border-radius: 4px;
+  margin: 10px 0;
+}
